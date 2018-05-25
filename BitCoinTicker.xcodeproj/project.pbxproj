@@ -12,6 +12,7 @@
 		543CFAA820B8773700CF3891 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 543CFAA620B8773700CF3891 /* Main.storyboard */; };
 		543CFAAA20B8773800CF3891 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 543CFAA920B8773800CF3891 /* Assets.xcassets */; };
 		543CFAAD20B8773800CF3891 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 543CFAAB20B8773800CF3891 /* LaunchScreen.storyboard */; };
+		E79E8A22BB9489FD78401155 /* Pods_BitCoinTicker.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC51268B1B58BA8738D859C4 /* Pods_BitCoinTicker.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,9 @@
 		543CFAA920B8773800CF3891 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		543CFAAC20B8773800CF3891 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		543CFAAE20B8773800CF3891 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BDADDF7ABC517060726534C1 /* Pods-BitCoinTicker.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BitCoinTicker.release.xcconfig"; path = "Pods/Target Support Files/Pods-BitCoinTicker/Pods-BitCoinTicker.release.xcconfig"; sourceTree = "<group>"; };
+		C8F821F02161034CA0241940 /* Pods-BitCoinTicker.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BitCoinTicker.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BitCoinTicker/Pods-BitCoinTicker.debug.xcconfig"; sourceTree = "<group>"; };
+		EC51268B1B58BA8738D859C4 /* Pods_BitCoinTicker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BitCoinTicker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +33,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E79E8A22BB9489FD78401155 /* Pods_BitCoinTicker.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1FA0151C6FDAAC5D12DFB700 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EC51268B1B58BA8738D859C4 /* Pods_BitCoinTicker.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		543CFA9620B8773700CF3891 = {
 			isa = PBXGroup;
 			children = (
 				543CFAA120B8773700CF3891 /* BitCoinTicker */,
 				543CFAA020B8773700CF3891 /* Products */,
+				9BE58919153C260077DAB387 /* Pods */,
+				1FA0151C6FDAAC5D12DFB700 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -64,6 +79,15 @@
 			path = BitCoinTicker;
 			sourceTree = "<group>";
 		};
+		9BE58919153C260077DAB387 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C8F821F02161034CA0241940 /* Pods-BitCoinTicker.debug.xcconfig */,
+				BDADDF7ABC517060726534C1 /* Pods-BitCoinTicker.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -71,9 +95,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 543CFAB120B8773800CF3891 /* Build configuration list for PBXNativeTarget "BitCoinTicker" */;
 			buildPhases = (
+				AABF03AABFE0D4EFBD727118 /* [CP] Check Pods Manifest.lock */,
 				543CFA9B20B8773700CF3891 /* Sources */,
 				543CFA9C20B8773700CF3891 /* Frameworks */,
 				543CFA9D20B8773700CF3891 /* Resources */,
+				B619E9603D5EDDA51BE53492 /* [CP] Embed Pods Frameworks */,
+				6EAA765F47C8356EFBAF3E61 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -129,6 +156,62 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6EAA765F47C8356EFBAF3E61 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BitCoinTicker/Pods-BitCoinTicker-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AABF03AABFE0D4EFBD727118 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BitCoinTicker-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B619E9603D5EDDA51BE53492 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-BitCoinTicker/Pods-BitCoinTicker-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BitCoinTicker/Pods-BitCoinTicker-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		543CFA9B20B8773700CF3891 /* Sources */ = {
@@ -278,15 +361,13 @@
 		};
 		543CFAB220B8773800CF3891 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C8F821F02161034CA0241940 /* Pods-BitCoinTicker.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5W9SHGAJVE;
 				INFOPLIST_FILE = BitCoinTicker/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ssh.BitCoinTicker;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -296,15 +377,13 @@
 		};
 		543CFAB320B8773800CF3891 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BDADDF7ABC517060726534C1 /* Pods-BitCoinTicker.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5W9SHGAJVE;
 				INFOPLIST_FILE = BitCoinTicker/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ssh.BitCoinTicker;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;

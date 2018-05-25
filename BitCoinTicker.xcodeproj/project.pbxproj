@@ -8,21 +8,31 @@
 
 /* Begin PBXBuildFile section */
 		543CFAA320B8773700CF3891 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 543CFAA220B8773700CF3891 /* AppDelegate.swift */; };
-		543CFAA520B8773700CF3891 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 543CFAA420B8773700CF3891 /* ViewController.swift */; };
+		543CFAA520B8773700CF3891 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 543CFAA420B8773700CF3891 /* MainViewController.swift */; };
 		543CFAA820B8773700CF3891 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 543CFAA620B8773700CF3891 /* Main.storyboard */; };
 		543CFAAA20B8773800CF3891 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 543CFAA920B8773800CF3891 /* Assets.xcassets */; };
 		543CFAAD20B8773800CF3891 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 543CFAAB20B8773800CF3891 /* LaunchScreen.storyboard */; };
+		546D857220B8790400CC920B /* BTCViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 546D857120B8790400CC920B /* BTCViewController.swift */; };
+		546D857420B8791100CC920B /* ETHViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 546D857320B8791100CC920B /* ETHViewController.swift */; };
+		546D857620B8791F00CC920B /* XRPViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 546D857520B8791F00CC920B /* XRPViewController.swift */; };
+		546D857820B8792D00CC920B /* BCHViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 546D857720B8792D00CC920B /* BCHViewController.swift */; };
+		546D857A20B8793900CC920B /* ITCViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 546D857920B8793900CC920B /* ITCViewController.swift */; };
 		E79E8A22BB9489FD78401155 /* Pods_BitCoinTicker.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC51268B1B58BA8738D859C4 /* Pods_BitCoinTicker.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		543CFA9F20B8773700CF3891 /* BitCoinTicker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BitCoinTicker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		543CFAA220B8773700CF3891 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		543CFAA420B8773700CF3891 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		543CFAA420B8773700CF3891 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		543CFAA720B8773700CF3891 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		543CFAA920B8773800CF3891 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		543CFAAC20B8773800CF3891 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		543CFAAE20B8773800CF3891 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		546D857120B8790400CC920B /* BTCViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BTCViewController.swift; sourceTree = "<group>"; };
+		546D857320B8791100CC920B /* ETHViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ETHViewController.swift; sourceTree = "<group>"; };
+		546D857520B8791F00CC920B /* XRPViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XRPViewController.swift; sourceTree = "<group>"; };
+		546D857720B8792D00CC920B /* BCHViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BCHViewController.swift; sourceTree = "<group>"; };
+		546D857920B8793900CC920B /* ITCViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ITCViewController.swift; sourceTree = "<group>"; };
 		BDADDF7ABC517060726534C1 /* Pods-BitCoinTicker.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BitCoinTicker.release.xcconfig"; path = "Pods/Target Support Files/Pods-BitCoinTicker/Pods-BitCoinTicker.release.xcconfig"; sourceTree = "<group>"; };
 		C8F821F02161034CA0241940 /* Pods-BitCoinTicker.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BitCoinTicker.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BitCoinTicker/Pods-BitCoinTicker.debug.xcconfig"; sourceTree = "<group>"; };
 		EC51268B1B58BA8738D859C4 /* Pods_BitCoinTicker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BitCoinTicker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -70,13 +80,42 @@
 			isa = PBXGroup;
 			children = (
 				543CFAA220B8773700CF3891 /* AppDelegate.swift */,
-				543CFAA420B8773700CF3891 /* ViewController.swift */,
-				543CFAA620B8773700CF3891 /* Main.storyboard */,
-				543CFAA920B8773800CF3891 /* Assets.xcassets */,
-				543CFAAB20B8773800CF3891 /* LaunchScreen.storyboard */,
+				546D857020B878D200CC920B /* Controller */,
+				546D857B20B8797400CC920B /* View */,
+				546D857C20B8798600CC920B /* Supporting File */,
 				543CFAAE20B8773800CF3891 /* Info.plist */,
 			);
 			path = BitCoinTicker;
+			sourceTree = "<group>";
+		};
+		546D857020B878D200CC920B /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				543CFAA420B8773700CF3891 /* MainViewController.swift */,
+				546D857120B8790400CC920B /* BTCViewController.swift */,
+				546D857320B8791100CC920B /* ETHViewController.swift */,
+				546D857520B8791F00CC920B /* XRPViewController.swift */,
+				546D857720B8792D00CC920B /* BCHViewController.swift */,
+				546D857920B8793900CC920B /* ITCViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		546D857B20B8797400CC920B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				543CFAAB20B8773800CF3891 /* LaunchScreen.storyboard */,
+				543CFAA620B8773700CF3891 /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		546D857C20B8798600CC920B /* Supporting File */ = {
+			isa = PBXGroup;
+			children = (
+				543CFAA920B8773800CF3891 /* Assets.xcassets */,
+			);
+			path = "Supporting File";
 			sourceTree = "<group>";
 		};
 		9BE58919153C260077DAB387 /* Pods */ = {
@@ -218,8 +257,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				543CFAA520B8773700CF3891 /* ViewController.swift in Sources */,
+				543CFAA520B8773700CF3891 /* MainViewController.swift in Sources */,
+				546D857220B8790400CC920B /* BTCViewController.swift in Sources */,
+				546D857820B8792D00CC920B /* BCHViewController.swift in Sources */,
+				546D857420B8791100CC920B /* ETHViewController.swift in Sources */,
 				543CFAA320B8773700CF3891 /* AppDelegate.swift in Sources */,
+				546D857620B8791F00CC920B /* XRPViewController.swift in Sources */,
+				546D857A20B8793900CC920B /* ITCViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -367,7 +411,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5W9SHGAJVE;
 				INFOPLIST_FILE = BitCoinTicker/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.ssh.BitCoinTicker;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -383,7 +430,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5W9SHGAJVE;
 				INFOPLIST_FILE = BitCoinTicker/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.ssh.BitCoinTicker;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;

@@ -17,6 +17,7 @@
 		546D857620B8791F00CC920B /* XRPViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 546D857520B8791F00CC920B /* XRPViewController.swift */; };
 		546D857820B8792D00CC920B /* BCHViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 546D857720B8792D00CC920B /* BCHViewController.swift */; };
 		546D857A20B8793900CC920B /* ITCViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 546D857920B8793900CC920B /* ITCViewController.swift */; };
+		54C2DAEF20BB24D7005E1C26 /* ETCViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54C2DAEE20BB24D7005E1C26 /* ETCViewController.swift */; };
 		E79E8A22BB9489FD78401155 /* Pods_BitCoinTicker.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC51268B1B58BA8738D859C4 /* Pods_BitCoinTicker.framework */; };
 /* End PBXBuildFile section */
 
@@ -33,6 +34,7 @@
 		546D857520B8791F00CC920B /* XRPViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XRPViewController.swift; sourceTree = "<group>"; };
 		546D857720B8792D00CC920B /* BCHViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BCHViewController.swift; sourceTree = "<group>"; };
 		546D857920B8793900CC920B /* ITCViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ITCViewController.swift; sourceTree = "<group>"; };
+		54C2DAEE20BB24D7005E1C26 /* ETCViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ETCViewController.swift; sourceTree = "<group>"; };
 		BDADDF7ABC517060726534C1 /* Pods-BitCoinTicker.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BitCoinTicker.release.xcconfig"; path = "Pods/Target Support Files/Pods-BitCoinTicker/Pods-BitCoinTicker.release.xcconfig"; sourceTree = "<group>"; };
 		C8F821F02161034CA0241940 /* Pods-BitCoinTicker.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BitCoinTicker.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BitCoinTicker/Pods-BitCoinTicker.debug.xcconfig"; sourceTree = "<group>"; };
 		EC51268B1B58BA8738D859C4 /* Pods_BitCoinTicker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BitCoinTicker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -97,6 +99,7 @@
 				546D857520B8791F00CC920B /* XRPViewController.swift */,
 				546D857720B8792D00CC920B /* BCHViewController.swift */,
 				546D857920B8793900CC920B /* ITCViewController.swift */,
+				54C2DAEE20BB24D7005E1C26 /* ETCViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -262,6 +265,7 @@
 				546D857820B8792D00CC920B /* BCHViewController.swift in Sources */,
 				546D857420B8791100CC920B /* ETHViewController.swift in Sources */,
 				543CFAA320B8773700CF3891 /* AppDelegate.swift in Sources */,
+				54C2DAEF20BB24D7005E1C26 /* ETCViewController.swift in Sources */,
 				546D857620B8791F00CC920B /* XRPViewController.swift in Sources */,
 				546D857A20B8793900CC920B /* ITCViewController.swift in Sources */,
 			);

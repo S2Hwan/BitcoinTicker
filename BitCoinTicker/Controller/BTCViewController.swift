@@ -13,11 +13,16 @@ import SwiftyJSON
 class BTCViewController: UIViewController {
     
     
+  
     @IBOutlet weak var lastLabel: UILabel!
+    
+    
     @IBOutlet weak var bidLabel: UILabel!
     @IBOutlet weak var askLabel: UILabel!
+    
     @IBOutlet weak var lowLabel: UILabel!
     @IBOutlet weak var highLabel: UILabel!
+    
     @IBOutlet weak var percentLabel: UILabel!
     
     

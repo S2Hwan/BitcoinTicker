@@ -12,6 +12,16 @@ import SwiftyJSON
 
 class BTCViewController: UIViewController {
     
+    
+    @IBOutlet weak var lastLabel: UILabel!
+    @IBOutlet weak var bidLabel: UILabel!
+    @IBOutlet weak var askLabel: UILabel!
+    @IBOutlet weak var lowLabel: UILabel!
+    @IBOutlet weak var highLabel: UILabel!
+    @IBOutlet weak var percentLabel: UILabel!
+    
+    
+    
     let coinURL = "https://api.korbit.co.kr/v1/ticker/detailed?currency_pair=btc_krw"
 
     override func viewDidLoad() {
@@ -32,7 +42,7 @@ class BTCViewController: UIViewController {
                 
                 //print("Success")
                 
-                let bitcoinJSON : JSON = JSON(response.result.value)
+                let bitcoinJSON : JSON = JSON(response.result.value as Any)
                 
                 self.updateBitcoinData(json: bitcoinJSON)
                 
@@ -51,14 +61,19 @@ class BTCViewController: UIViewController {
     
     func updateBitcoinData(json : JSON) {
         
-        let bitcoinResult = json["data"]["opening_price"].intValue
-        let bitcoinResult2 = json["data"]["closing_price"].intValue
+        let lastResult = json["last"].intValue
+        let bidResult = json["bid"].intValue
+        let askResult = json["ask"].intValue
+        let lowResult = json["low"].intValue
+        let highResult = json["high"].intValue
+        let percentResult = json["changePercent"].doubleValue
         
-        
-        
-//        currencyLabel.text = String(bitcoinResult)
-//        priceLabel.text = String(bitcoinResult2)
-        
+        lastLabel.text = String(lastResult) + " 원"
+        bidLabel.text = String(bidResult) + " 원"
+        askLabel.text = String(askResult) + " 원"
+        lowLabel.text = String(lowResult) + " 원"
+        highLabel.text = String(highResult) + " 원"
+        percentLabel.text = String(percentResult) + " %"
         
     }
 

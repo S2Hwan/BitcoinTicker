@@ -12,20 +12,12 @@ import SwiftyJSON
 
 class BTCViewController: UIViewController {
     
-    
-  
     @IBOutlet weak var lastLabel: UILabel!
-    
-    
     @IBOutlet weak var bidLabel: UILabel!
     @IBOutlet weak var askLabel: UILabel!
-    
     @IBOutlet weak var lowLabel: UILabel!
     @IBOutlet weak var highLabel: UILabel!
-    
     @IBOutlet weak var percentLabel: UILabel!
-    
-    
     
     let coinURL = "https://api.korbit.co.kr/v1/ticker/detailed?currency_pair=btc_krw"
 
@@ -34,8 +26,6 @@ class BTCViewController: UIViewController {
         
         getBitcoinData(url: coinURL)
     }
-    
-    
     
     //MARK: - Networking
     /***************************************************************/
@@ -50,7 +40,6 @@ class BTCViewController: UIViewController {
                 let bitcoinJSON : JSON = JSON(response.result.value as Any)
                 
                 self.updateBitcoinData(json: bitcoinJSON)
-                
 
                 print(bitcoinJSON)
                 
@@ -81,7 +70,4 @@ class BTCViewController: UIViewController {
         percentLabel.text = String(percentResult) + " %"
         
     }
-
-   
-
 }

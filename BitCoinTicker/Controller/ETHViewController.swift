@@ -70,6 +70,4 @@ class ETHViewController: UIViewController {
         percentLabel.text = String(percentResult) + " %"
         
     }
-   
-
 }

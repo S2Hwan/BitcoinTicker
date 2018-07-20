@@ -16,7 +16,7 @@
  - [x] 최종 체결 가격, 최우선 매수호가, 최우선 매도호가, 24시간내 최저가, 24시간내 최고가, 변동 사항 확인 가능
 
 ## Open API
- - [x] `코빗` : https://apidocs.korbit.co.kr
+ - `코빗` : https://apidocs.korbit.co.kr
 
 ## Open Source
  - `swiftyJSON` : https://github.com/SwiftyJSON/SwiftyJSON

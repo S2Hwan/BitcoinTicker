@@ -9,12 +9,14 @@
 
 ## About
 - [x] (UI 작업 미완성, 진행중...)
+- [x]
+- [x]
 
 ## Features
  - [x] 실시간 비트코인 시세정보 확인
 
 ## Open API
- - 
+ - https://apidocs.korbit.co.kr
 
 ## Open Source
  - `swiftyJSON` : https://github.com/SwiftyJSON/SwiftyJSON

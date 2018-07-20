@@ -4,7 +4,7 @@
 [![GitHub](https://img.shields.io/badge/Github-S2Hwan-red.svg)](https://github.com/S2Hwan/BitcoinTicker/)
 
 # BitcoinTicker
-비트코인 시세를 실시간으로 확인할수 있는 iOS Application 
+비트코인, 이더리움, 비트코인 캐시, 리플, 이더리움 클래식, 라이트 코인의 시세를 실시간으로 확인할수 있는 iOS Application 
 
 
 ## About

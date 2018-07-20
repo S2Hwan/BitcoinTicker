@@ -17,8 +17,8 @@
  - 
 
 ## Open Source
- - 
- - 
+ - `swiftyJSON` : https://github.com/SwiftyJSON/SwiftyJSON
+ - `Alamofire` : https://github.com/Alamofire/Alamofire
 
 ## Contact
 [![Gmail](https://img.shields.io/badge/gmail-sclooney0410%40gmail.com-000000.svg)](sclooney0410@gmail.com)
